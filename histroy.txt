@@ -1,0 +1,110 @@
+    1  cler
+    2  clear
+    3  mkdir firefox
+    4  cd firefox/
+    5  git init
+    6  ssh-keygen -t ed25519 -C "vaibhavsarkarfirefox@gmail.com"
+    7  ls -al
+    8  # Start the SSH agent
+    9  eval "$(ssh-agent -s)"
+   10  # Add the private key to the agent
+   11  ssh-add ~/.ssh/id_ed25519
+   12  gh login
+   13  sudo apt update -y
+   14  gh login
+   15  sudo apt update
+   16  sudo apt install gh -y
+   17  gh auth login
+   18  clear
+   19  ls
+   20  rm -rf vaibhav/
+   21  mkdir repo && touch vaibahv.txt  
+   22  cd repo/
+   23  ls
+   24  ]c
+   25  cd
+   26  ls
+   27  cd repo/
+   28  touch vaibhav.txt
+   29  vi vaibhav.txt 
+   30  ls
+   31  git log
+   32  git init
+   33  git log
+   34  ls
+   35  git status
+   36  git add vaibhav.txt 
+   37  git commit -m "FIRST"
+   38  git config --global user.name vaibhavbihub
+   39  git config --global user.email vaibhavsarkarfirefox@gmail.com
+   40  git commit -m "FIRST"
+   41  git log
+   42  gh repo list 
+   43  ls
+   44  gh repo create repo --public --source = --remote = origin --push 
+   45  gh repo list 
+   46  gh repo create repo --public --source = . --remote = origin --push 
+   47  gh repo list 
+   48  gh repo create repo --public --source = .--remote = origin --push 
+   49  gh repo list 
+   50  gh repo create repo
+   51  gh repo create repo --public  --confirm
+   52  gh repo list 
+   53  ls
+   54  git push vaibhav.txt 
+   55  git push  --set-upstream vaibhav.txt master 
+   56  git status
+   57  gh repo list
+   58  git remote -v
+   59  git remote add origin git@github.com:vaibhavbihub/repo.git
+   60  git remote -v
+   61  git push -u origin master
+   62  git branch
+   63  git branch prod
+   64  git branch
+   65  git branch checkout prod
+   66  git branch
+   67  git checkout prod 
+   68* 
+   69  ls
+   70  vi vaibhav.txt 
+   71  git status
+   72  git add vaibhav.txt 
+   73  git commit -m "PROD"
+   74  git remote -v
+   75  git push -u origin master
+   76  git log
+   77  git push -u origin prod 
+   78  git log
+   79  git checkout checkout 
+   80  git branch
+   81  git branch staging
+   82  git branch
+   83  git checkout staging 
+   84  vi vaibhav.txt 
+   85  git status
+   86  git add vaibhav.txt 
+   87  git status
+   88  git commit -m "STAGGING"
+   89  git push -u origin staging 
+   90  git log
+   91  ls
+   92  cat vaibhav.txt 
+   93  git log 
+   94  history 
+   95  history >  histroy.txt
+   96  ls
+   97  cat histroy.txt 
+   98  ls
+   99  git sta
+  100  git status
+  101  git add histroy.txt 
+  102  git commit -m "histroy.txt"
+  103  git branch 
+  104  git push -u origin staging 
+  105  ls
+  106  git checkout master 
+  107  git branch 
+  108  ls
+  109  history 
+  110  history > histroy.txt
