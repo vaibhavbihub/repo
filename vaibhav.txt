@@ -1,2 +1,259 @@
   this first change
  this is change by staging 
+1  clear
+    2  ls
+    3  cd git/
+    4  ls
+    5  gh list 
+    6  gh repo list
+    7  ls
+    8  cd vaibhav/
+    9  ls
+   10  cd myrepo/
+   11  ls
+   12  cd
+   13  clear
+   14  ls
+   15  cd git/
+   16  ls
+   17  cd vaibhav/
+   18  ls
+   19  cd myrepo/
+   20  ls
+   21  git -v
+   22  mkdir git && cd git
+   23  git init
+   24  git config --global user.name 
+   25  git config --global user.email 
+   26  git config --global user.singingkey
+   27  git clone https://github.com/vaibhavgit555/myrepo.git
+   28  ls
+   29  cd myrepo/
+   30  ls
+   31  cat indes.html 
+   32  git config --global user.name 
+   33  ls
+   34  git log
+   35  git remote -v
+   36  vi indes.html 
+   37  git status
+   38  git add indes.html 
+   39  git status
+   40  git commit -m "this change by new user"
+   41  git  config --global --edit 
+   42  es
+   43  git log
+   44  git  config --global user.name vaibhavaihub
+   45  git  config --global user.email vaibhavaihub@gmail.com
+   46  git log
+   47  git config --global user.name 
+   48  git config --global user.email 
+   49  ls
+   50  vi indes.html 
+   51  git status
+   52  git  add indes.html 
+   53  git status
+   54  git commit -m "this is change by vaibhavaihub"
+   55  git status
+   56  ls
+   57  cat indes.html 
+   58  git push
+   59  git log
+   60  git push
+   61  git push ind
+   62  git push indes.html
+   63  git push 
+   64  git remote -v
+   65  cd
+   66  ls
+   67  cd git/
+   68  ls
+   69  mkdir vaibhav
+   70  ls
+   71  vaibhav/
+   72  ls
+   73  cd myrepo/
+   74  ls
+   75  ls -a
+   76  cd 
+   77  cd git/
+   78  cd vaibhav/
+   79  ls -a
+   80  git init
+   81  vi file.txt
+   82  ls
+   83  git status
+   84  git add file.txt 
+   85  git commit -m "this file createdx by v user"
+   86  git status
+   87  git log
+   88  ls
+   89  git remote -v
+   90  git push
+   91  git remote add file.txt 
+   92  git remote add origin https://github.com/vaibhavaihub/vaibhav.git
+   93  git remote -v
+   94  sudo apt update 
+   95  sudo apt install gh
+   96  gh 
+   97  gh auth login 
+   98  ~/.config/gh/hosts.yml
+   99  cat ~/.config/gh/hosts.yml
+  100  find . name hosts.yml
+  101  find .  hosts.yml
+  102  clear
+  103  ls -al ~/.ssh
+  104  ssh-keygen -t ed25519 -C "vaibhavaihub@gmail.com"
+  105  ls -al
+  106  eval "$(ssh-agent -s)"
+  107  # Start the SSH agent
+  108  eval "$(ssh-agent -s)"
+  109  # Add the private key to the agent
+  110  ssh-add ~/.ssh/id_ed25519
+  111  cat ~/.ssh/id_ed25519.pub
+  112  gh ssh-key add ~/.ssh/id_ed25519.pub --title "Ubuntu Server Key"
+  113  gh auth  login
+  114  ssh -T git@github.com
+  115  clear
+  116  gh repo create newrepo --public --clone
+  117  ls
+  118  ls -al
+  119  cd new
+  120  cd newrepo/
+  121  ls -al
+  122  cd
+  123  ls
+  124  cd git/
+  125  ls
+  126  cd vaibhav/
+  127  ls
+  128  cd .
+  129  cd
+  130  ls
+  131  cd git/
+  132  ls
+  133  cd vaibhav/
+  134  ls
+  135  clear
+  136  gh repo create myrepo  --public --clone 
+  137  git remote -v
+  138  git remote show 
+  139  cd myrepo/
+  140  echo "this is new file from cli" > hello.txt
+  141  ls
+  142  git status
+  143  git add hello.txt 
+  144  git status
+  145  git commit -m "this hello file"
+  146  git status
+  147  git log
+  148  git push
+  149  git pull
+  150  ls
+  151  git branch
+  152  git push --set-upstream origin master 
+  153  ubuntu@ip-172-31-13-135:~/git/vaibhav/myrepo$ git push --set-upstream origin master 
+  154  Enumerating objects: 3, done.
+  155  Counting objects: 100% (3/3), done.
+  156  Writing objects: 100% (3/3), 236 bytes | 236.00 KiB/s, done.
+  157  Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+  158  To github.com:vaibhavaihub/myrepo.git
+  159  branch 'master' set up to track 'origin/master'.
+  160  ls
+  161  git status
+  162  git add 
+  163  git add *
+  164  git status
+  165  git commit -m "this is master"
+  166  git status
+  167  git push
+  168  git status
+  169  git log 
+  170  git log --name-only 
+  171  git log --full-history 
+  172  gh repo list 
+  173  gh repo view 
+  174  gh repo rename vaibhav
+  175  git status
+  176  git repo list
+  177  gh repo 
+  178  gh repo list 
+  179  gh run 
+  180  gh repo edit 
+  181  gh repo edit vaibhav
+  182  gh repo edit 
+  183  git status
+  184  gh repo delete 
+  185  gh repo list 
+  186  history 
+  187  git log
+  188  ls
+  189  git  branch
+  190  git branch dev
+  191  git  branch
+  192  git checkout dev 
+  193  git branch 
+  194  ls
+  195  vi hello.txt 
+  196  git status
+  197  git add hello.txt 
+  198  git commit -m "this from dev"
+  199  git status
+  200  git branch 
+  201  git checkout master 
+  202  git branch 
+  203  git status
+  204  git merge dev
+  205  git status
+  206  git log
+  207  git push 
+  208  git checkout -b bugfix/login-error
+  209  git branch 
+  210  vi login.html
+  211  git status
+  212  git add login.html 
+  213  git commit -m "fix login.html error"
+  214  git status
+  215  git branch
+  216  git checkout master 
+  217  git merge bugfix/login-error 
+  218  git branch -d  bugfix/login-error 
+  219  git status
+  220  git log
+  221  git push
+  222  clear
+  223  git branch
+  224  ls
+  225  git remote -v
+  226  gh repo list
+  227  git branch
+  228  git branch prod
+  229  git branch
+  230  git checkout prod 
+  231  git branch
+  232  ls
+  233  vi hello.txt 
+  234  git status
+  235  git add hello.txt 
+  236  git commit -m "this is chaange from prod branch"
+  237  git status
+  238  git push
+  239  git push --set-upstream origin prod 
+  240  git branch
+  241  git branch stagg
+  242  git branch 
+  243  git checkout stagg 
+  244  ls
+  245  vi hello.txt 
+  246  git status
+  247  git add hello.txt 
+  248  git status
+  249  git commit -m "this is change from stagg branch"
+  250  git status
+  251  git push origin stagg 
+  252  clear
+  253  ls
+  254  rm -rf git/
+  255  ls
+  256  history 
+  257  history >histroy.txt
